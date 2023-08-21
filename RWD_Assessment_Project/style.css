@@ -1,0 +1,91 @@
+* { margin: 0;
+padding: 0;
+box-sizing: border-box; }
+
+html { font-size: 70%; 
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.header { background-color: black; 
+color: goldenrod; 
+text-align: center;
+padding: 1.5rem;
+font-size: 2rem;
+border: 4px solid goldenrod; }
+
+.logo { width: 7rem}
+
+.main { display: flex; padding: 1rem; 
+}
+
+.summaries { width: 50%; 
+ }
+
+.list { width: 25vw; }
+
+.ul {padding: 2rem; }
+
+.li { font-size: 1.5rem; }
+
+#courses { font-size: 2.5rem;}
+
+.courses { font-weight: bold;
+color: goldenrod; }
+
+.courses:hover { color: royalblue;
+text-decoration: none; }
+
+#seemore { color: royalblue;
+font-weight: bold; }
+
+#seemore:hover { color: goldenrod;
+text-decoration: none;
+font-style: italic; }
+
+.navbar { width: 25%; 
+display: flex;
+flex-direction: column; 
+position: fixed; 
+right: 0;
+justify-content: center;
+align-items: center;
+
+}
+
+.navlink { border: 2px solid black;
+background-color: royalblue;
+margin: .3rem;
+padding: 1rem;
+text-decoration: none;
+color: white;
+font-size: 2rem;
+width: 70%;
+text-shadow: 1px 2px 3px goldenrod; 
+display: flex;
+text-align: center;
+justify-content: center;}
+
+.navlink:hover { color: black; }
+
+ul { padding: 1rem;}
+
+li { margin-left: 2rem;}
+
+.summary { font-size: 1.8rem; 
+margin: 1rem;}
+
+.contact { color: goldenrod;
+font-weight: bold; }
+
+.contact:hover { color: royalblue;
+text-decoration: none; }
+
+
+
+footer { background-color: black; 
+color: goldenrod;
+padding: 2rem; 
+font-size: 1.2rem;
+font-weight: bold;
+font-style: italic; }
