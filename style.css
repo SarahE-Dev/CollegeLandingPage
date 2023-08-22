@@ -35,7 +35,9 @@ border: 4px solid goldenrod; }
 padding-left: 5px;
 }
 
-.links:hover { color: goldenrod;
+.links { color: royalblue; }
+
+.links:hover, .links:focus { color: goldenrod;
 text-decoration: none; }
 
 h4 { padding: 7px 0;}
@@ -53,14 +55,14 @@ ul { list-style-type: square; }
 .courses { font-weight: bold;
 color: goldenrod; }
 
-.courses:hover { color: royalblue;
+.courses:hover, .courses:focus { color: royalblue;
 text-decoration: none; }
 
 #seemore { color: royalblue;
 font-weight: bold; 
 margin-left: 2rem;}
 
-#seemore:hover { color: goldenrod;
+#seemore:hover, #seemore:focus { color: goldenrod;
 text-decoration: none;
 font-style: italic; }
 
@@ -88,7 +90,7 @@ text-align: center;
 justify-content: center;
 font-family: 'Cinzel', sans-serif; }
 
-.navlink:hover { color: black; }
+.navlink:hover, .navlink:focus { color: black; }
 
 ul { padding: 1rem;}
 
@@ -100,7 +102,7 @@ margin: 1.5rem;}
 .contact { color: goldenrod;
 font-weight: bold; }
 
-.contact:hover { color: royalblue;
+.contact:hover, .contact:focus { color: royalblue;
 text-decoration: none; }
 
 
